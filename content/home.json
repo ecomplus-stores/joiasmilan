@@ -57,7 +57,7 @@
       "html": "<a class=\"ofertas\" href=\"/outlet\">Ver seleção completa</a>"
     },
     {
-      "autoplay": 6000,
+      "autoplay": 7000,
       "page": 1,
       "title": "Lançamentos",
       "shuffle": true,
