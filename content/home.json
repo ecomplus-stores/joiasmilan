@@ -144,7 +144,8 @@
       "page": 1,
       "sort": "views",
       "collection_id": "628c42bddf4d8071c920b2e4:brands:Joias Milan:/joiasmilan",
-      "title": "O que outros clientes estão vendo"
+      "title": "O que outros clientes estão vendo",
+      "autoplay": 3000
     },
     {
       "type": "custom-html",
