@@ -43,7 +43,7 @@
     },
     {
       "type": "offers-timer",
-      "max_hours": 100,
+      "max_hours": 24,
       "start": "2023-04-03T14:18:38.655Z",
       "end": "2023-04-06T02:59:39.950Z",
       "offers": [
