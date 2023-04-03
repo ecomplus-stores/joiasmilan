@@ -54,7 +54,7 @@
     },
     {
       "type": "custom-html",
-      "html": "<a class=\"ofertas\" href=\"/search?term=\">Ver seleção completa</a>"
+      "html": "<a class=\"ofertas\" href=\"/outlet\">Ver seleção completa</a>"
     },
     {
       "type": "collection-shelf",
