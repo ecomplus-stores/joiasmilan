@@ -53,29 +53,6 @@
       "notes": "Ofertas especiais"
     },
     {
-      "type": "banners-grid",
-      "banners": [
-        {
-          "img": "/img/uploads/1.webp"
-        },
-        {
-          "img": "/img/uploads/2.webp"
-        },
-        {
-          "img": "/img/uploads/3.webp"
-        },
-        {
-          "img": "/img/uploads/4.webp"
-        },
-        {
-          "img": "/img/uploads/5.webp"
-        },
-        {
-          "img": "/img/uploads/6.webp"
-        }
-      ]
-    },
-    {
       "type": "custom-html",
       "html": "<a class=\"ofertas\" href=\"/outlet\">Ver seleção completa</a>"
     },
