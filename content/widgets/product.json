@@ -7,7 +7,7 @@
     "buy": "",
     "strHasQuantitySelector": " ",
     "strHasPromotionTimer": "true",
-    "lowQuantityToWarn": 4,
+    "lowQuantityToWarn": 9,
     "maxVariationOptionsBtns": 6,
     "quoteInfo": ""
   }
