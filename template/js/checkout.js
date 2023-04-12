@@ -16,9 +16,8 @@ storefront.on('widget:@ecomplus/widget-tag-manager', () => {
         $('.cart__list').after($div)
         ecomCart.on('change', ({ data }) => {
           setTimeout(() => {
-            points = document.querySelector('.prices__points span').innerText.replace('+', '').trim()
-            transformToMoney = (Number(points) * 0.05).toFixed(2)
-            document.getElementById('changeMoney').innerText = transformToMoney
+            let cashback = document.querySelector('.prices__points span').innerText.trim()
+            document.getElementById('changeMoney').innerText = cashback
           }, 800)
         })
         
