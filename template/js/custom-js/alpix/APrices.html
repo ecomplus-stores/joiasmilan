@@ -78,8 +78,11 @@
       class="prices__points"
     >
       <i class="i-check-circle"></i>
-      <a target="_blank" href="https://www.joiasmilan.com.br/pages/programa-de-fidelidade">
-        Cashback <span>{{ formatMoney(price / 20) }}</span> (ver mais)</a>
+      {{ i19youEarn }}
+      <span>
+        +{{ (earnPointsFactor * price).toFixed(1) }}
+      </span>
+      <em>{{ pointsProgramName }}</em>
     </div>
 
     <div
