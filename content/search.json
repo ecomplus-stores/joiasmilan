@@ -13,12 +13,12 @@
       "html": "<div class=\"whats-s3\">       <div class=\"whats-1\">         <img src=\"/img/uploads/whats-2022.png\" alt=\"\">       </div>       <div class=\"whats-2\">         <span>           Compre pelo<br>           Whatsapp         </span>       </div>       <a href=\"https://api.whatsapp.com/send?phone=5519999885087\" target=\"_blank\" title=\"Whatsapp\">Whatsapp</a>     </div>"
     },
     {
-      "type": "custom-html",
-      "html": "<script src=\"https://www.mercadopago.com/v2/security.js\" view=\"search\"></script>"
-    },
-    {
       "type": "custom-content",
       "markdown": "<div class=\"ml-embedded\" data-form=\"2VV3lb\"></div>"
+    },
+    {
+      "type": "custom-html",
+      "html": "<script src=\"https://www.mercadopago.com/v2/security.js\" view=\"search\"></script>"
     }
   ]
 }
