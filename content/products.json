@@ -62,6 +62,13 @@
       ]
     },
     {
+      "type": "responsive-banner",
+      "img": "/img/uploads/fidelidade-desktop.webp",
+      "link": "https://www.joiasmilan.com.br/pages/programa-de-fidelidade",
+      "alt": "Cashback",
+      "mobile_img": "/img/uploads/fidelidade-mobile.webp"
+    },
+    {
       "type": "custom-html",
       "html": "<script src=\"https://www.mercadopago.com/v2/security.js\" view=\"item\"></script>"
     }
