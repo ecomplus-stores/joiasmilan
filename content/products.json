@@ -51,17 +51,6 @@
       "html": "<div class=\"whats-s3\">       <div class=\"whats-1\">         <img src=\"/img/uploads/whats-2022.png\" alt=\"\">       </div>       <div class=\"whats-2\">         <span>           Compre pelo<br>           Whatsapp         </span>       </div>       <a href=\"https://api.whatsapp.com/send?phone=5519999885087\" target=\"_blank\" title=\"Whatsapp\">Whatsapp</a>     </div>"
     },
     {
-      "type": "banners-grid",
-      "banners": [
-        {
-          "img": "/img/uploads/fidelidade-desktop.webp",
-          "alt": "Programa de fidelidade",
-          "mobile_img": "/img/uploads/fidelidade-mobile.webp",
-          "link": "https://www.joiasmilan.com.br/pages/programa-de-fidelidade"
-        }
-      ]
-    },
-    {
       "type": "responsive-banner",
       "img": "/img/uploads/fidelidade-desktop.webp",
       "link": "https://www.joiasmilan.com.br/pages/programa-de-fidelidade",
