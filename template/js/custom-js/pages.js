@@ -15,6 +15,13 @@ if (window.storefront && window.storefront.context && window.storefront.context.
   }
 
 
+
+$ ( 'botão .ppts-faq-list' ) . clique ( função ( ) {
+  $ ( este ) . toggleClass ( 'ativo' ) ;
+  $ ( este ) . mais próximo ( 'li' ) . encontrar ( '.resposta' ) . alternar ( ) ;
+} )
+
+
 // ALPIX - PESQUISA POR VOZ
 const  searchForm  =  documento . querySelector ( "#formulário de busca" ) ;
 const  searchFormInput  =  searchForm . querySelector ( "entrada" ) ;  // <=> document.querySelector("#search-form input");
