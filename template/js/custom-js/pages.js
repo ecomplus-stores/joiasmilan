@@ -13,3 +13,89 @@ if (window.storefront && window.storefront.context && window.storefront.context.
       }, 500);
     });
   }
+
+
+// ALPIX - PESQUISA POR VOZ
+const  searchForm  =  documento . querySelector ( "#formulário de busca" ) ;
+const  searchFormInput  =  searchForm . querySelector ( "entrada" ) ;  // <=> document.querySelector("#search-form input");
+const  info  =  documento . consultaSeletor ( ".info" ) ;
+
+// A interface de reconhecimento de fala reside no objeto janela do navegador
+const  SpeechRecognition  =  janela . Reconhecimento de fala  ||  janela . webkitSpeechRecognition  ||  falso ;  // se não existir nenhum -> indefinido
+
+if ( Reconhecimento de fala )  {
+  console . log ( "Seu navegador suporta reconhecimento de fala" ) ;
+  
+   reconhecimento  const =  new  SpeechRecognition ( ) ;
+  reconhecimento . contínuo  =  falso ;
+  reconhecimento . lang  =  "pt-BR" ;
+
+  searchForm . insertAdjacentHTML ( "afterbegin" ,  '<button type="button"><svg width="14" height="20" viewBox="0 0 14 20" fill="none" xmlns="http://www.w3 .org/2000/svg "> <caminho d =" M13 10C13 13.3137 10.3137 16 7 16M7 16C3.68629 16 1 13.3137 1 10M7 16V19M7 19H10M7 19H4M7 13C5.34315 13 4 11.6569 40V 40v7. 4V10C10 11.6569 8.65685 13 7 13Z" stroke="#4698ca" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></button>' ) ;
+  searchFormInput . estilo . paddingRight  =  "50px" ;
+
+  const  micBtn  =  searchForm . querySelector ( "botão" ) ;
+  const  micIcon  =  micBtn . primeiroElementChild ;
+
+  micBtn . addEventListener ( "clique" ,  micBtnClick ) ;
+    function  micBtnClick ( )  {
+    //if(micIcon.classList.contains("fa-microphone")) { // Inicia o reconhecimento de voz
+      reconhecimento . iniciar ( ) ;  // Primeira vez que você tem que permitir o acesso ao microfone!
+    ///}
+    //outro {
+// reconhecimento.stop();
+    ///}
+  }
+
+  reconhecimento . addEventListener ( "start" ,  startSpeechRecognition ) ;  // <=> reconhecimento.onstart = function() {...}
+  function  startSpeechRecognition ( )  {
+    micIcon . classList . remover ( "fa-microfone" ) ;
+    micIcon . classList . add ( "fa-microfone-barra" ) ;
+    searchFormInput . foco ( ) ;
+    console . log ( "Ativado por voz, FALAR" ) ;
+  }
+
+  reconhecimento . addEventListener ( "end" ,  endSpeechRecognition ) ;  // <=> reconhecimento.onend = function() {...}
+  função  endSpeechRecognition ( )  {
+    micIcon . classList . remover ( "fa-microfone-barra" ) ;
+    micIcon . classList . adicionar ( "fa-microfone" ) ;
+    searchFormInput . foco ( ) ;
+    console . log ( "Serviço de reconhecimento de fala desconectado" ) ;
+    $ ( '.header__search-input' ) . gatilho ( 'keyup' )
+  }
+
+  reconhecimento . addEventListener ( "resultado" ,  resultadoOfSpeechRecognition ) ;  // <=> reconhecimento.onresult = function(event) {...} - Dispara quando você para de falar
+  função  resultadoOfSpeechRecognition ( evento )  {
+    const  atual  =  evento . resultadoIndex ;
+     transcrição  const =  evento . resultados [ atual ] [ 0 ] . transcrição ;
+    
+    if ( transcript . toLowerCase ( ) . trim ( ) === "parar a gravação" )  {
+      reconhecimento . parar ( ) ;
+    }
+    else  if ( ! searchFormInput . value )  {
+      searchFormInput . valor  =  transcrição ;
+    }
+    outra coisa  {
+      if ( transcript . toLowerCase ( ) . trim ( ) === "go" )  {
+        searchForm . submeter ( ) ;
+      }
+      else  if ( transcript . toLowerCase ( ) . trim ( ) === "redefinir entrada" )  {
+        searchFormInput . valor  =  "" ;
+      }
+      outra coisa  {
+        searchFormInput . valor  =  transcrição ;
+      }
+    }
+    // searchFormInput.value = transcrição;
+    // searchFormInput.focus();
+    // setTimeout(() => {
+    // searchForm.submit();
+    // }, 500);
+  }
+  
+  //info.textContent = 'Comandos de voz: "parar gravação", "redefinir entrada", "ir"';
+  
+}
+outra coisa  {
+  console . log ( "Seu navegador não suporta reconhecimento de fala" ) ;
+  //info.textContent = "Seu navegador não suporta reconhecimento de voz";
+}
