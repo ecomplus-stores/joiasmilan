@@ -15,7 +15,6 @@ if (window.storefront && window.storefront.context && window.storefront.context.
   }
 
 
-
 $ ( 'botão .ppts-faq-list' ) . clique ( função ( ) {
   $ ( este ) . toggleClass ( 'ativo' ) ;
   $ ( este ) . mais próximo ( 'li' ) . encontrar ( '.resposta' ) . alternar ( ) ;
