@@ -13,6 +13,10 @@
       }
     },
     {
+      "type": "custom-html",
+      "html": "<script src=\"https://www.mercadopago.com/v2/security.js\" view=\"item\"></script>"
+    },
+    {
       "type": "product-description",
       "enabled": true
     },
@@ -60,10 +64,6 @@
       "link": "https://www.joiasmilan.com.br/pages/programa-de-fidelidade",
       "alt": "Cashback",
       "mobile_img": "/img/uploads/fidelidade-mobile.webp"
-    },
-    {
-      "type": "custom-html",
-      "html": "<script src=\"https://www.mercadopago.com/v2/security.js\" view=\"item\"></script>"
     }
   ]
 }
