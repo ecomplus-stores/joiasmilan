@@ -51,6 +51,10 @@
       "html": "<div class=\"whats-s3\">       <div class=\"whats-1\">         <img src=\"/img/uploads/whats-2022.png\" alt=\"\">       </div>       <div class=\"whats-2\">         <span>           Compre pelo<br>           Whatsapp         </span>       </div>       <a href=\"https://api.whatsapp.com/send?phone=5519999885087\" target=\"_blank\" title=\"Whatsapp\">Whatsapp</a>     </div>"
     },
     {
+      "type": "custom-html",
+      "html": "<div class=\"profile-details__reliability\"><div class=\"flex flex-col relative rounded-full\"><div class=\"mb-2 text-sm text-neutral-gray-1\"> Qualidade Premium </div><div class=\"relative border-4 rounded-full\" style=\"border-color: rgb(255, 255, 255); height: 24px;\"><div class=\"relative w-full h-full rounded-full\" style=\"background: linear-gradient(90deg, rgb(255, 255, 255) 0%, rgb(223, 194, 119) 51.9%);\"><div class=\"flex justify-evenly relative z-[5]\"><svg width=\"1\" height=\"24\" viewBox=\"0 0 1 12\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><line opacity=\"0.5\" x1=\"0.5\" y1=\"11.5\" x2=\"0.499999\" y2=\"0.5\" stroke=\"#263238\" stroke-linecap=\"round\" stroke-dasharray=\"1 2.4\"></line></svg><svg width=\"1\" height=\"24\" viewBox=\"0 0 1 12\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><line opacity=\"0.5\" x1=\"0.5\" y1=\"11.5\" x2=\"0.499999\" y2=\"0.5\" stroke=\"#263238\" stroke-linecap=\"round\" stroke-dasharray=\"1 2.4\"></line></svg></div></div><div class=\"absolute top-0 right-0 h-full\" style=\"background-color: rgb(255, 255, 255); width: 0%;\"></div></div><div class=\"flex justify-between mt-1\"><div class=\"text-xs text-center leading-7 text-neutral-gray-6\"></div> <div class=\"text-xs text-center leading-7 text-neutral-gray-6\"></div> <div class=\"text-xs text-center leading-7 text-status-success underline font-bold\"> Mais camadas de ouro </div></div></div></li>"
+    },
+    {
       "type": "responsive-banner",
       "img": "/img/uploads/fidelidade-desktop.webp",
       "link": "https://www.joiasmilan.com.br/pages/programa-de-fidelidade",
