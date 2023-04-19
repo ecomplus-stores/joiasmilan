@@ -13,6 +13,11 @@
       "enabled": true
     },
     {
+      "type": "dynamic-showcase",
+      "load_more": false,
+      "sort": "views"
+    },
+    {
       "type": "custom-html",
       "html": "<p><iframe frameborder=\"0\" height=\"400\" scrolling=\"no\" src=\"https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=pt-BR&amp;geocode=&amp;q=pirassununga+-+SP,+Brasil&amp;output=embed\" width=\"100%\"></iframe></p>\n\n<p><span style=\"color:#000000\"><span style=\"font-size:14px\">Conhe&ccedil;a um pouco mais sobre <strong>Pirassununga&nbsp;/ SP</strong></span></span></p>\n"
     },
