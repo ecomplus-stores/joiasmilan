@@ -18,11 +18,30 @@
     },
     {
       "type": "custom-html",
-      "html": "<p><iframe frameborder=\"0\" height=\"400\" scrolling=\"no\" src=\"https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=pt-BR&amp;geocode=&amp;q=Limeira+-+SP,+Brasil&amp;output=embed\" width=\"100%\"></iframe></p>\n\n<p><span style=\"color:#000000\"><span style=\"font-size:14px\">Conhe&ccedil;a um pouco mais sobre <strong>Limeira / SP</strong></span></span></p>\n"
+      "html": "<div class=\"whats-s3\">       <div class=\"whats-1\">         <img src=\"/img/uploads/whats-2022.png\" alt=\"\">       </div>       <div class=\"whats-2\">         <span>           Compre pelo<br>           Whatsapp         </span>       </div>       <a href=\"https://api.whatsapp.com/send?phone=5519999885087\" target=\"_blank\" title=\"Whatsapp\">Whatsapp</a>     </div>"
     },
     {
       "type": "custom-html",
-      "html": "<div class=\"whats-s3\">       <div class=\"whats-1\">         <img src=\"/img/uploads/whats-2022.png\" alt=\"\">       </div>       <div class=\"whats-2\">         <span>           Compre pelo<br>           Whatsapp         </span>       </div>       <a href=\"https://api.whatsapp.com/send?phone=5519999885087\" target=\"_blank\" title=\"Whatsapp\">Whatsapp</a>     </div>"
+      "html": "<div class=\"page-title container mt-4 mb-4 mb-lg-5\"><div class=\"page-title__head\"><h1 class=\"my-0\">Principais Categorias</h1></div></div>"
+    },
+    {
+      "type": "custom-html",
+      "html": "<div class=\"story-conteiner\">\n        <ul>  \n            <li class=\"has-story\">\n                <div class=\"story\">\n                    <a href=\"https://www.joiasmilan.com.br/lancamentos\"><img src=\"/img/uploads/story_lancamentos.webp\"></a>\n                </div>\n                <span class=\"user\">Lançamentos</span>\n            </li>       \n            <li class=\"has-story\">\n                <div class=\"story\">\n                    <a href=\"https://www.joiasmilan.com.br/brincos\"><img src=\"/img/uploads/story_brincos.webp\"></a>\n                </div>\n                <span class=\"user\">Brincos</span>\n            </li>\n            <li class=\"has-story\">\n                <div class=\"story\">\n                    <a href=\"https://www.joiasmilan.com.br/colares\"><img src=\"/img/uploads/story_colares.webp\"></a>\n                </div>\n                <span class=\"user\">Colares</span>\n            </li>\n            <li class=\"has-story\">\n                <div class=\"story\">\n                    <a href=\"https://www.joiasmilan.com.br/pulseiras\"><img src=\"/img/uploads/story_pulseiras.webp\"></a>\n                </div>\n                <span class=\"user\">Pulseiras</span>\n            </li>\n            <li class=\"has-story\">\n                <div class=\"story\">\n                    <a href=\"https://www.joiasmilan.com.br/tornozeleiras\"><img src=\"/img/uploads/story_tornozeleiras.webp\"></a>\n                </div>\n                <span class=\"user\">Tornozeleiras</span>\n            </li>\n            <li class=\"has-story\">\n                <div class=\"story\">\n                    <a href=\"https://www.joiasmilan.com.br/chokers\"><img src=\"/img/uploads/story_chokers1.webp\"></a>\n                </div>\n                <span class=\"user\">Chokers</span>\n            </li>\n            <li class=\"has-story\">\n                <div class=\"story\">\n                    <a href=\"https://www.joiasmilan.com.br/combos\"><img src=\"/img/uploads/story_combos.webp\"></a>\n                </div>\n                <span class=\"user\">Combos</span>\n            </li>           \n            <li class=\"has-story\">\n                <div class=\"story\">\n                    <a href=\"https://www.joiasmilan.com.br/religiosos\"><img src=\"/img/uploads/story_religiosos.webp\"></a>\n                </div>\n                <span class=\"user\">Religiosos</span>\n            </li>           \n            <li class=\"has-story\">\n                <div class=\"story\">\n                    <a href=\"https://www.joiasmilan.com.br/outlet\"><img src=\"/img/uploads/story_outlet.webp\"></a>\n                </div>\n                <span class=\"user\">Outlet</span>\n            </li>          \n            <li class=\"has-story\">\n                <div class=\"story\">\n                    <a href=\"https://api.whatsapp.com/send?phone=5519999885087\" target=\"”_blank”\"><img src=\"/img/uploads/whatsapp-icone-3.webp\"></a>\n                </div>\n                <span class=\"user\">Atendimento</span>\n            </li>            \n          \n        </ul>\n    </div>"
+    },
+    {
+      "autoplay": 6000,
+      "page": 1,
+      "title": "Ofertas",
+      "shuffle": false,
+      "type": "collection-shelf",
+      "link": "https://www.joiasmilan.com.br/outlet",
+      "limit": 12,
+      "collection_id": "628c3ffddf4d8071c920ae35:categories:Outlet:/outlet",
+      "sort": "offers"
+    },
+    {
+      "type": "custom-html",
+      "html": "<p><iframe frameborder=\"0\" height=\"400\" scrolling=\"no\" src=\"https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=pt-BR&amp;geocode=&amp;q=Limeira+-+SP,+Brasil&amp;output=embed\" width=\"100%\"></iframe></p>\n\n<p><span style=\"color:#000000\"><span style=\"font-size:14px\">Conhe&ccedil;a um pouco mais sobre <strong>Limeira / SP</strong></span></span></p>\n"
     }
   ]
 }
