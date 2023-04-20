@@ -87,12 +87,12 @@
     },
     {
       "type": "offers-timer",
-      "max_hours": 4,
-      "start": "2023-04-14T20:42:42.380Z",
-      "end": "2023-04-17T02:59:43.473Z",
+      "max_hours": 24,
+      "start": "2023-04-20T12:52:45.728Z",
+      "end": "2023-04-21T02:59:48.399Z",
       "offers": [
-        "628c7cefdf4d8071c920f0f9",
-        "628c7cf7df4d8071c920f10f"
+        "628c7cf3df4d8071c920f103",
+        "628c7cfedf4d8071c920f127"
       ],
       "notes": "Ofertas especiais"
     },
