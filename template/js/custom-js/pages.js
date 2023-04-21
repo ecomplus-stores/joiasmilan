@@ -30,7 +30,7 @@ if(SpeechRecognition) {
   recognition.continuous = false;
   recognition.lang = "pt-BR";
 
-  searchForm.insertAdjacentHTML("afterbegin", '<button type="button"><svg width="14" height="20" viewBox="0 0 14 20" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M13 10C13 13.3137 10.3137 16 7 16M7 16C3.68629 16 1 13.3137 1 10M7 16V19M7 19H10M7 19H4M7 13C5.34315 13 4 11.6569 4 10V4C4 2.34315 5.34315 1 7 1C8.65685 1 10 2.34315 10 4V10C10 11.6569 8.65685 13 7 13Z" stroke="#e35c94" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></button>');
+  searchForm.insertAdjacentHTML("afterbegin", '<button type="button"><svg width="14" height="20" viewBox="0 0 14 20" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M13 10C13 13.3137 10.3137 16 7 16M7 16C3.68629 16 1 13.3137 1 10M7 16V19M7 19H10M7 19H4M7 13C5.34315 13 4 11.6569 4 10V4C4 2.34315 5.34315 1 7 1C8.65685 1 10 2.34315 10 4V10C10 11.6569 8.65685 13 7 13Z" stroke="#f2a1b2" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></button>');
   searchFormInput.style.paddingRight = "50px";
 
   const micBtn = searchForm.querySelector("button");
