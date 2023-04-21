@@ -16,6 +16,11 @@
     z-index: 900;
     }
 }
+@media(max-width: 480px) {
+  #search-bar {
+    display: block !important;
+  }
+}
 #cashback {
   padding: 15px;
   //width: 50%;
