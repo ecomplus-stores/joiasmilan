@@ -220,7 +220,7 @@ body main .product__prices .apx_prices .prices_installments *{font-size:14px;}
   box-shadow: 5px 5px 5px rgba(0,0,0,.1);
   border-radius: 0;
   width: 550px;
-  border-top: 4px solid var(--apx_azul);
+  border-top: 4px solid #f2a1b2;
   margin-top: 15px;
 }
 #header .search__history .fas,
@@ -263,7 +263,7 @@ display: flex;
 #header #instant-search .product-card{box-shadow:unset!important;}
 .search__footer{
   font-size: 12px;
-  background: var(--apx_azul);
+  background: #f2a1b2;
   border-radius: 0;
   border: 0;
 }
