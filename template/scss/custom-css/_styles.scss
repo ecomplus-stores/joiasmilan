@@ -205,3 +205,72 @@ body main .product__prices .apx_prices .prices_installments *{font-size:14px;}
 @media(max-width:990px){
   #search-bar form>button:first-child{padding:0px 10px;line-height: initial;}
 }
+
+
+
+
+
+
+.header__search{overflow:visible}
+#header #instant-search{}
+#header #instant-search > .backdrop{display:none;}
+#header #instant-search .search__box.card{
+  position: absolute;
+  left: 0;
+  top: 100%;
+  margin: 0;
+  z-index: 1;
+  box-shadow: 5px 5px 5px rgba(0,0,0,.1);
+  border-radius: 0;
+  width: 550px;
+  border-top: 4px solid #f2a1b2;
+  margin-top: 15px;
+}
+#header .search__history .fas,
+#header .search__count{color:#fff;}
+#header .search__history{text-align:right}
+
+#header .search__body{max-height:50vh}
+#header #instant-search .search__box.card .search__header{display:none;}
+#header #instant-search .search__box.card .search-engine__results{}
+#header #instant-search .search__box.card .search-engine__results .search-engine__info h3{display:none;}
+#header #instant-search .search__box.card .search-engine__results .search-engine__retail{}
+#header #instant-search .search__box.card .search-engine__results .search-engine__retail > .row{display:block;}
+#header #instant-search .search__box.card .search-engine__results .search-engine__retail > .row > div{display:block;width:100%;max-width:100%;}
+
+#header #instant-search .search__box.card .search-engine__results .search-engine__retail > .row > div .product-card .product-card__buy,
+#header #instant-search .search__box.card .search-engine__results .search-engine__retail > .row > div .product-card .product-card__offer-stamp{display:none}
+
+#header #instant-search .search__box.card .search-engine__results .search-engine__retail > .row > div .product-card section,
+#header #instant-search .search__box.card .search-engine__results .search-engine__retail > .row > div .product-card section .product-card__link{
+  display:flex;
+  align-items:center;
+}
+#header #instant-search .search__box.card .search-engine__results .search-engine__retail > .row > div .product-card section .product-card__pictures{height:auto;}
+#header #instant-search .search__box.card .search-engine__results .search-engine__retail > .row > div .product-card section picture{max-width:100px;height:100%;}
+#header #instant-search .search__box.card .search-engine__results .search-engine__retail > .row > div .product-card .product-card__name{
+  padding:0 1rem;
+  white-space: normal;
+  width: 350px;
+  text-align: left;
+  font-size:12px;
+}
+#header #instant-search .search__box.card .search-engine .lead{font-size:14px;margin-top:.5rem}
+#header #instant-search .search__box.card .search-engine h4{font-size:18px;}
+#header #instant-search .search__box.card .search-engine__results .prices{
+text-align: right;
+align-items: center;
+display: flex;
+}
+#header #instant-search .search__box.card .search-engine__results .prices > *{margin:0;display:block;text-align:right;    font-size: 18px;}
+#header #instant-search .product-card{box-shadow:unset!important;}
+.search__footer{
+  font-size: 12px;
+  background: #f2a1b2;
+  border-radius: 0;
+  border: 0;
+}
+.search__history,
+.search__history a,
+.search__count{color:#fff;font-size:12px;white-space:normal}
+
