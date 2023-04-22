@@ -99,3 +99,15 @@ else {
   console.log("Your Browser does not support speech Recognition");
   //info.textContent = "Your Browser does not support Speech Recognition";
 }
+
+
+// Adicione seu JavaScript personalizado para páginas de vitrine aqui.
+$ ( '.header__search-input' ) . keyup ( função ( ) {
+    $ ( 'body.search__input' ) . val ( $ ( este ) .val ( ) ) . _[ 0 ] . dispatchEvent ( novo  evento ( 'entrada' ) ) ;
+} ) ;
+
+$ ( 'corpo' ) . clique ( função ( e ) {
+    if ( $ ( e . target ) . mais próximo ( '.header__search' ) . length  ==  0 ) {
+        $ ( '#instant-search.search__status.close' ) . clique ( ) ;
+    }
+} ) ;
