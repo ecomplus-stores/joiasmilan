@@ -101,13 +101,13 @@ else {
 }
 
 
-// Adicione seu JavaScript personalizado para páginas de vitrine aqui.
-$ ( '.header__search-input' ) . keyup ( função ( ) {
-    $ ( 'body.search__input' ) . val ( $ ( este ) .val ( ) ) . _[ 0 ] . dispatchEvent ( novo  evento ( 'entrada' ) ) ;
-} ) ;
+// Add your custom JavaScript for storefront pages here.
+$('.header__search-input').keyup(function(){
+    $('body .search__input').val($(this).val()).[0].dispatchEvent(new Event('input'));
+});
 
-$ ( 'corpo' ) . clique ( função ( e ) {
-    if ( $ ( e . target ) . mais próximo ( '.header__search' ) . length  ==  0 ) {
-        $ ( '#instant-search.search__status.close' ) . clique ( ) ;
+$('body').click(function(e){
+    if($(e.target).closest('.header__search').length == 0){
+        $('#instant-search .search__status .close').click();
     }
-} ) ;
+});
