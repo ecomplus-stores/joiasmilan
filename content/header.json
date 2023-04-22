@@ -6,7 +6,12 @@
     "color": "#000000"
   },
   "contacts_stripe": {
-    "pages": [],
+    "pages": [
+      {
+        "title": "Blog",
+        "link": "https://www.joiasmilan.com.br/"
+      }
+    ],
     "phone_wpp": false,
     "socials": false
   },
