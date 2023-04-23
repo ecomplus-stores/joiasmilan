@@ -1,21 +1,4 @@
 // Add your custom CSS here.
-@media(max-width: 767px) {
-#main {
-    overflow-x: hidden !important;
-  }
-  .header {
-    position: fixed;
-    top: 29px
-  }
-  .page {
-    margin-top: 160px;
-  }
-  .top-bar {
-    position: fixed;
-    top: 0;
-    z-index: 900;
-    }
-}
 @media(max-width: 480px) {
   #search-bar {
     display: block !important;
