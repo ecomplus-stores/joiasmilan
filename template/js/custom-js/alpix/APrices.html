@@ -65,12 +65,12 @@
     </div>
 
   <strong class="prices__value">
+     <small v-if="hasVariedPrices">    
       {{ i19asOf }}
-        <small v-if="hasVariedPrices">
-                  <small v-if="comparePrice" class="apx-label-discount">
+     </small>
+        <small v-if="comparePrice" class="apx-label-discount">
             {{ ((((price / comparePrice) * 100) - 100)).toFixed() * -1 }}% OFF
         </small>
-    </small>
     {{ formatMoney(price) }}
   </strong>
 
