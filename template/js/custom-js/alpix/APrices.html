@@ -69,7 +69,8 @@
       {{ i19asOf }}
      </small>
     {{ formatMoney(price) }}
-          <small v-if="comparePrice" class="apx-label-discount">
+        <small class="prices__discount-label"> a prazo </small>  
+        <small v-if="comparePrice" class="apx-label-discount">
             {{ ((((price / comparePrice) * 100) - 100)).toFixed() * -1 }}% OFF
         </small>
   </strong>
