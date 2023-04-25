@@ -65,17 +65,17 @@
     </div>
 
   <strong class="prices__value">
-    <small v-if="hasVariedPrices">
-      {{ i19asOf }}
-    </small>
-    {{ formatMoney(price) }}
-  </strong>
-              <small v-if="comparePrice" class="apx-label-discount">
+                  <small v-if="comparePrice" class="apx-label-discount">
             {{ ((((priceWithDiscount / comparePrice) * 100) - 100)).toFixed() * -1 }}% OFF
         </small>
         <small v-else class="apx-label-discount">
           {{ (((priceWithDiscount / price) * 100) - 100).toFixed() * -1 }}% OFF
         </small>
+    <small v-if="hasVariedPrices">
+      {{ i19asOf }}
+    </small>
+    {{ formatMoney(price) }}
+  </strong>
 
   <transition-group enter-active-class="animated slideInDown">
     <div
