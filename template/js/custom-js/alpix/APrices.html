@@ -69,7 +69,7 @@
       {{ i19asOf }}
      </small>
     {{ formatMoney(price) }}
-        <small class="prices__discount-label"> via Cartão </small>  
+        <small class="prices__discount-label"> à vista </small>  
         <small v-if="comparePrice" class="apx-label-discount">
             {{ ((((price / comparePrice) * 100) - 100)).toFixed() * -1 }}% OFF
         </small>
