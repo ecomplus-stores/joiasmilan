@@ -18,18 +18,18 @@
         {
           "start": "",
           "end": "",
-          "img": "/img/uploads/desktop2.webp",
-          "mobile_img": "/img/uploads/mobile2.webp",
-          "link": "https://www.joiasmilan.com.br/search?term=",
-          "alt": "Vantagens Joias Milan "
-        },
-        {
-          "start": "",
-          "end": "",
           "img": "/img/uploads/banner-cashback-d.webp",
           "mobile_img": "/img/uploads/banner-cashback-m.webp",
           "link": "https://www.joiasmilan.com.br/pages/programa-de-fidelidade",
           "alt": "Cashback"
+        },
+        {
+          "start": "",
+          "end": "",
+          "img": "/img/uploads/desktop2.webp",
+          "mobile_img": "/img/uploads/mobile2.webp",
+          "link": "https://www.joiasmilan.com.br/search?term=",
+          "alt": "Vantagens Joias Milan "
         }
       ]
     },
