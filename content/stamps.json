@@ -1,3 +1,8 @@
 {
-  "stamps_list": []
+  "stamps_list": [
+    {
+      "id": "Frete Grátis",
+      "img": "/img/uploads/flag-brasil.gif"
+    }
+  ]
 }
