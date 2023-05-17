@@ -31,6 +31,9 @@
         <small class="prices__discount-label">
           {{ discountLabel }} 
         </small>
+        <small class="w-100 apx-label-text">
+         à vista no pix
+        </small>
         <small v-if="comparePrice" class="apx-label-discount">
             {{ ((((priceWithDiscount / comparePrice) * 100) - 100)).toFixed() * -1 }}% OFF
         </small>
