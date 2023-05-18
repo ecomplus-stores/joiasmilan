@@ -3,13 +3,6 @@
     {
       "id": "Frete Grátis",
       "img": "/img/uploads/flag-brasil.gif"
-    },
-    {
-      "skus": [
-        "CO000033"
-      ],
-      "id": "TESTE",
-      "img": "/img/uploads/cupom-namorados.gif"
     }
   ]
 }
