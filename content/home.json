@@ -3,6 +3,10 @@
   "meta_description": "Grande variedade em Semijoias para todos os estilos. Compre online em até 6x sem juros. Lindos Colares, brincos, piercings, chokers, pulseiras e anéis. Semijoias com qualidade premium. Enviamos para todo Brasil. Frete Grátis ",
   "sections": [
     {
+      "type": "custom-html",
+      "html": "<div class=\"slick-slider vtex-slick-slider-no-dots slick-initialized\"><div class=\"slick-list\"><div class=\"slick-track\" style=\"width: 1298px; opacity: 1; transform: translate3d(0px, 0px, 0px); transition: -webkit-transform 500ms ease 0s;\"><div data-index=\"0\" class=\"slick-slide slick-active slick-current\" tabindex=\"-1\" aria-hidden=\"false\" style=\"outline: none; width: 1298px;\"><div><div tabindex=\"-1\" style=\"width: 100%; display: inline-block;\"><a href=\"/pages/programa-de-fidelidade\"><img src=\"https://lojausereserva.vtexassets.com/assets/vtex.file-manager-graphql/images/1d35e395-fd0a-40d0-89f8-8ff5fb9d0f85___033fad64f17f5450f43ffb0256c5f08f.png\" alt=\"Joias Milan\" crossorigin=\"anonymous\" wz_dt_ref=\"true\"></a></div></div></div></div></div></div>"
+    },
+    {
       "type": "banner-slider",
       "autoplay": 9000,
       "full_width": true,
