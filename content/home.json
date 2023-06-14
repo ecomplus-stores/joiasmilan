@@ -117,10 +117,6 @@
       "sort": null
     },
     {
-      "type": "custom-html",
-      "html": "<div id=\"vurdere-socialcommunity\"></div>"
-    },
-    {
       "type": "collection-shelf",
       "shuffle": true,
       "limit": 12,
