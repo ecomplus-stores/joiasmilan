@@ -21,10 +21,6 @@
       "enabled": true
     },
     {
-      "type": "custom-html",
-      "html": "<div id=\"vurdere-socialcommunity\"></div>"
-    },
-    {
       "type": "related-products",
       "title": "Você também pode gostar"
     },
