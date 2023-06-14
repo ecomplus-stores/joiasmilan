@@ -22,10 +22,6 @@
     },
     {
       "type": "custom-html",
-      "html": "<div id=\"vurdere-socialexpressions\"></div>\n<div id=\"vurdere-socialreviews\"></div>\n<div id=\"vurdere-socialdisplays\"></div>"
-    },
-    {
-      "type": "custom-html",
       "html": "<div id=\"vurdere-socialcommunity\"></div>"
     },
     {
